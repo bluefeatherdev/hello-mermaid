@@ -34,5 +34,54 @@ sequenceDiagram
   Bob-->John: Jolly good!
 ```
 
+### 3. Gantt diagram
+
+```mermaid
+gantt
+dateFormat YYYY-MM-DD
+title Adding GANTT diagram to mermaid
+excludes weekdays 2026-01-10
+
+section A section
+Completed task  : done, des1, 2026-01-06, 2026-01-08
+Active task     : active, des2, 2026-01-09, 3d
+Future task     : des3, after des2, 5d
+Future task2    : des4, after des3, 5d
+```
+
+### 4. Class diagram
+
+```mermaid
+classDiagram
+Class01 <|-- AVeryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --> C2 : Where am I?
+Class09 --* C3
+Class09 --|> Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 <--> C2: Cool label
+```
+
+### 5. Git Graph
+
+```mermaid
+gitGraph
+  commit
+  commit
+  branch develop
+  commit
+  commit
+  commit
+  checkout main
+  merge develop
+  commit
+  commit
+```
 
 > Made with '\u{2665}' (♥) by Jesús Domínguez [@bluefeatherdev](https://github.com/bluefeatherdev)
