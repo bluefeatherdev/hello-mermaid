@@ -406,6 +406,197 @@ flowchart TD
   id1(((This is the text in the circle)))
 ```
 
+### 19. Example Flowchart with New Shapes
 
+```mermaid
+flowchart RL
+  A@{ shape: manual-file, label: "File Handling"}
+  B@{ shape: manual-input, label: "User Input"}
+  C@{ shape: docs, label: "Multiple Documents"}
+  D@{ shape: procs, label: "Process Automation"}
+  E@{ shape: paper-tape, label: "Paper Records"}
+```
+
+### 20. Process
+
+```mermaid
+flowchart TD
+  A@{ shape: rect, label: "This is a process" }
+```
+
+### 21. Event
+
+```mermaid
+flowchart TD
+    A@{ shape: rounded, label: "This is an event" }
+```
+
+### 22. Terminal Point (Stadium)
+
+```mermaid
+flowchart TD
+  A@{ shape: stadium, label: "Terminal point" }
+```
+
+### 23. Subprocess
+
+```mermaid
+flowchart TD
+  A@{ shape: subproc, label: "This is a subprocess" }
+```
+
+### 24. Database (Cylinder)
+
+```mermaid
+flowchart TD
+  A@{ shape: cyl, label: "Database" }
+```
+
+### 25. Start (Circle)
+
+```mermaid
+flowchart TD
+  A@{ shape: circle, label: "Start" }
+```
+
+### 26. Odd
+
+```mermaid
+flowchart TD
+  A@{ shape: odd, label: "Odd shape" }
+```
+
+### 27. Decision (Diamond)
+
+```mermaid
+flowchart TD
+  A@{ shape: diamond, label: "Decision" }
+```
+
+### 28. Prepare Conditional (Hexagon)
+
+```mermaid
+flowchart TD
+  A@{ shape: hex, label: "Prepare conditional" }
+```
+
+### 29. Data Input/Output (Lean Right)
+
+```mermaid
+flowchart TD
+  A@{ shape: lean-r, label: "Input/Output" }
+```
+
+### 30. Data Input/Output (Lean Left)
+
+```mermaid
+flowchart TD
+  A@{ shape: lean-l, label: "Output/Input" }
+```
+
+### 31. Priority Action (Trapezoid Base Bottom)
+
+```mermaid
+flowchart TD
+  A@{ shape: trap-b, label: "Priority action" }
+```
+
+### 32. Manual Operation (Trapezoid Base Top)
+
+```mermaid
+flowchart TD
+  A@{ shape: trap-t, label: "Manual operation" }
+```
+
+### 33. Manual Operation (Trapezoid Base Top)
+
+```mermaid
+flowchart TD
+  A@{ shape: dbl-circ, label: "Stop" }
+```
+
+### 34. Text Block
+
+```mermaid
+flowchart TD
+  A@{ shape: text, label: "This is a text block" }
+```
+
+### 35. Card (Notched Rectangle)
+
+```mermaid
+flowchart TD
+  A@{ shape: notch-rect, label: "Card" }
+```
+
+### 36. Lined/Shaded Process
+
+```mermaid
+flowchart TD
+  A@{ shape: lin-rect, label: "Lined process" }
+```
+
+### 37. Start (Small Circle)
+
+```mermaid
+flowchart TD
+  A@{ shape: sm-circ, label: "Small start" }
+```
+
+### 38. Stop (Framed Circle)
+
+```mermaid
+flowchart TD
+  A@{ shape: framed-circle, label: "Stop" }
+```
+
+### 39. Fork/Join (Long Rectangle)
+
+```mermaid
+flowchart TD
+  A@{ shape: fork, label: "Fork or Join" }
+```
+
+### 40. Collate (Hourglass)
+
+```mermaid
+flowchart TD
+  A@{ shape: hourglass, label: "Collate" }
+```
+
+### 41. Comment (Curly Brace)
+
+```mermaid
+flowchart TD
+  A@{ shape: comment, label: "Comment" }
+```
+
+### 42. Comment Right (Curly Brace Right)
+
+```mermaid
+flowchart TD
+  A@{ shape: brace-r, label: "Comment" }
+```
+
+### 43. Comment with braces on both sides
+
+```mermaid
+flowchart TD
+  A@{ shape: braces, label: "Comment" }
+```
+
+### 44. Com Link (Lightning Bolt)
+
+```mermaid
+flowchart TD
+  A@{ shape: bolt, label: "Communication link" }
+```
+
+### 45. Document
+
+```mermaid
+flowchart TD
+  A@{ shape: doc, label: "Document" }
+```
 
 > Made with '\u{2665}' (♥) by Jesús Domínguez [@bluefeatherdev](https://github.com/bluefeatherdev)
