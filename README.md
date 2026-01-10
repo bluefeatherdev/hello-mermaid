@@ -137,4 +137,67 @@ xychart-beta
   line [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]
 ```
 
+## Getting Started
+
+### 1. Basic Workflow
+
+```mermaid
+graph TD
+  A[Enter Chart Definition] --> B(Preview)
+  B --> C{decide}
+  C --> D[Keep]
+  C --> E[Edit Definition]
+  E --> B
+  D --> F[Save Image and Code]
+  F --> B
+```
+
+## Syntax and Configuration
+
+### 1. Syntax Structure
+
+```mermaid
+erDiagram
+  CUSTOMER }|..|{ DELIVERY-ADDRESS : has
+  CUSTOMER ||--o{ ORDER : places
+  CUSTOMER ||--o{ INVOICE : "liable for"
+  DELIVERY-ADDRESS ||--o{ ORDER : receives
+  INVOICE ||--|{ ORDER : covers
+  ORDER ||--|{ ORDER-ITEM : includes
+  PRODUCT-CATEGORY ||--|{ PRODUCT : contains
+  PRODUCT ||--o{ ORDER-ITEM : "ordered in"
+```
+
+### 2. Frontmatter for diagram code
+
+```mermaid
+---
+title: Frontmatter Example
+displayMode: compact
+config:
+  theme: forest
+gantt:
+    useWidth: 400
+    compact: true
+---
+gantt
+    section Waffle
+        Iron  : 1982, 3y
+        House : 1986, 3y
+```
+
+### 3. Selecting Diagram Looks
+
+```mermaid
+---
+config:
+  look: handDrawn
+  theme: neutral
+---
+flowchart LR
+  A[Start] --> B{Decision}
+  B -->|Yes| C[Continue]
+  B -->|No| D[Stop]
+```
+
 > Made with '\u{2665}' (♥) by Jesús Domínguez [@bluefeatherdev](https://github.com/bluefeatherdev)
