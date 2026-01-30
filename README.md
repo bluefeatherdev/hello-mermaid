@@ -3,8 +3,7 @@
 ![Static Badge](https://img.shields.io/badge/documentation-markdown-000?style=for-the-badge&logo=markdown&logoColor=white&labelColor=101010)
 ![Static Badge](https://img.shields.io/badge/diagrams-mermaid-FF3670?style=for-the-badge&logo=mermaid&logoColor=white&labelColor=101010)
 
-> This repository is licensed under the terms of the [Apache License 2.0](LICENSE).
-
+Learning Mermaid from scratch, this repo explores embedding diagrams in Markdown. It’s a sandbox to practice syntax and chart types.
 
 ## Diagram Types
 
@@ -136,5 +135,9 @@ xychart-beta
   bar [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]
   line [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]
 ```
+
+## License
+
+This repository is licensed under the terms of the [Apache License 2.0](LICENSE)
 
 > Made with '\u{2665}' (♥) by Jesús Domínguez [@bluefeatherdev](https://github.com/bluefeatherdev)
