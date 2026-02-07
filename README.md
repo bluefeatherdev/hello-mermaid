@@ -1,11 +1,19 @@
 # Hello, Mermaid!
 
-![Static Badge](https://img.shields.io/badge/diagrams-mermaid-FF3670?style=for-the-badge&logo=mermaid&logoColor=white&labelColor=101010)
-![Static Badge](https://img.shields.io/badge/documentation-markdown-000?style=for-the-badge&logo=markdown&logoColor=white&labelColor=101010)
+![Static Badge](https://img.shields.io/badge/mermaid-diagrams-1C2024?style=for-the-badge&logo=mermaid&logoColor=white&labelColor=101010)
+![Static Badge](https://img.shields.io/badge/markdown-documentation-1C2024?style=for-the-badge&logo=markdown&logoColor=white&labelColor=101010)
 
 Learning Mermaid from scratch, this repo explores embedding diagrams in Markdown. It’s a sandbox to practice syntax and chart types.
 
 ![header_hello_mermaid](https://github.com/user-attachments/assets/3c01de9e-509b-4531-9264-217e4641e76d)
+
+## Repository Content
+
+...
+
+## Repository Goals
+
+...
 
 ## License
 
