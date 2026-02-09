@@ -5,7 +5,7 @@
 
 Learning Mermaid from scratch, this repo explores embedding diagrams in Markdown. It’s a sandbox to practice syntax and chart types.
 
-![header_hello_mermaid](https://github.com/user-attachments/assets/3c01de9e-509b-4531-9264-217e4641e76d)
+![header_hello_mermaid](https://github.com/user-attachments/assets/621e80b6-b79b-42ea-8bec-aecb1207f267)
 
 ## Repository Content
 
